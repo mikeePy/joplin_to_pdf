@@ -39,9 +39,7 @@ pip install pdfkit
    ```
 3. **Download wkhtmltopdf** (see System Requirements above)
 4. **Run the application**:
-   ```bash
-   python html_to_pdf_converter.py
-   ```
+   
 
 ## Usage
 
