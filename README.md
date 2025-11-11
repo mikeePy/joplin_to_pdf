@@ -1,4 +1,3 @@
-```markdown
 # Joplin to PDF Converter
 
 A user-friendly desktop application that converts Joplin HTML export files to PDF format with a simple graphical interface. Perfect for batch conversion of entire Joplin notebooks.
@@ -20,7 +19,7 @@ A user-friendly desktop application that converts Joplin HTML export files to PD
 ### Python Dependencies
 ```bash
 pip install pdfkit
-```
+
 
 ### System Requirements
 - **Windows**: wkhtmltopdf executable
