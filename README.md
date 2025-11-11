@@ -1,7 +1,7 @@
 ```markdown
-# HTML to PDF Converter
+# Joplin to PDF Converter
 
-A user-friendly desktop application that converts HTML files to PDF format with a simple graphical interface. Perfect for batch conversion of HTML documents, reports, or web pages.
+A user-friendly desktop application that converts Joplin HTML export files to PDF format with a simple graphical interface. Perfect for batch conversion of entire Joplin notebooks.
 
 ## Features
 
@@ -46,12 +46,14 @@ pip install pdfkit
 
 ## Usage
 
+### Step 0: Export your Joplin Notebook (Export -> Export HTML Directory)
+
 ### Step 1: Configure wkhtmltopdf
 - Click "Browse" to locate your `wkhtmltopdf.exe` file
 - Click "Test" to verify the installation works correctly
 
 ### Step 2: Select HTML Files
-- Click "Browse" to choose a folder containing your HTML files
+- Click "Browse" to choose a folder containing your Joplin HTML Export files
 - Adjust the "File pattern" if needed (default: `*.html`)
 
 ### Step 3: Choose Conversion Options
